@@ -1,0 +1,17 @@
+.Display-container-text{
+    display: grid;
+    grid-template-rows: 35px 60px;
+    margin-bottom: 10px;
+}
+
+.Display-text{
+    width: 99%;
+    font-size: 45px;
+    text-align: end;
+    align-self: center;
+}
+
+.Display-text.next{
+    font-size: 18px;
+    color: #8e8e8e;
+}

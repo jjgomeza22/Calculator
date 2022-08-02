@@ -1,0 +1,44 @@
+.CalculatorHistorial-container::-webkit-scrollbar{
+    width: 4px;
+}
+
+.CalculatorHistorial-container::-webkit-scrollbar-thumb{
+    background-color: #9a9a9a;
+    border-radius: 5px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorBottom{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    width: 306px;
+    height: 302px;
+    margin: 0 auto 136px auto;
+    border-radius: 10px 10px 2% 2%;
+    background-color: #202020;
+}
+
+.CalculatorHistorial-list{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.CalculatorHistorial-list:hover{
+    background-color: #363636;
+    border-radius: 5px;
+}
+
+.CalculatorHistorial-operation{
+    color: #8e8e8e;
+    margin-bottom: 5px;
+}
+
+.CalculatorHistorial-result{
+    font-size: 20px;
+}
+
+.CalculatorHistorial-garbage:hover{
+    background-color: #363636;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.CalculatorButton-button{
+    width: 72px;
+    height: 48px;
+}
+
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+    background-color: #3b3b3b !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #323232 !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root.CalculatorButton-button.equal{
+    background-color: #a6a5a1 !important;
+    color: black;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root.CalculatorButton-button.equal:hover{
+    background-color: #989793 !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root.CalculatorButton-button.black{
+    background-color: #323232 !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root.CalculatorButton-button.black:hover{
+    background-color: #3b3b3b !important;
+}

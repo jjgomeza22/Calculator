@@ -1,0 +1,30 @@
+.CalculatorTemplate-container{
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    background-color: #202020;
+    padding: 5px;
+    border-radius: 2%;
+    margin: 0 auto;
+}
+
+.CalculatorTemplate-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.CalculatorTemplate-menu-title{
+    align-self: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.CalculatorTemplate-history{
+    align-self: center;
+    margin-left: 158px;
+}
+
+.CalculatorTemplate-history:hover{
+    background-color: #363636;
+    border-radius: 5px;
+}

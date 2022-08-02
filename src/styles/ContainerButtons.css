@@ -1,0 +1,14 @@
+.ContainerButtons-container{
+    display: grid;
+    grid-template-columns: repeat(4, 72px);
+    grid-template-rows: repeat(6, 48px);
+    gap: 2px;
+    grid-template-areas:
+    "porcentaje  CE        C        delete"
+    "raro        cuadrado  raizC    div"
+    "numero7     numero8   numero9  multi"
+    "numero4     numero5   numero6  resta"
+    "numero1     numero2   numero3  suma"
+    "numeroNeg    numero0   coma     igual";
+    align-self: center;
+}
